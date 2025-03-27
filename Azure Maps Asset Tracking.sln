@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asset Tracking Website", "Website\Asset Tracking Website.csproj", "{30720947-0EB6-4357-BE99-0DCA5097A1D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asset Tracking Generator", "Generator\Asset Tracking Generator.csproj", "{B9E0C971-9911-416E-934C-032FE18B9003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asset Tracking Models", "Models\Asset Tracking Models.csproj", "{8DD6D846-8A73-4EBD-870A-B9BF9E064C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asset Tracking Functions", "Functions\Asset Tracking Functions.csproj", "{2EE29389-64AB-4F11-B36E-C77EED3FA88B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\deploy.ps1 = Deployment\deploy.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{3A76346A-9BAD-44E4-96E7-C3585DD381CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86E2CB48-72BD-4AF2-9A43-E51B0BCB3777}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30720947-0EB6-4357-BE99-0DCA5097A1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30720947-0EB6-4357-BE99-0DCA5097A1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30720947-0EB6-4357-BE99-0DCA5097A1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30720947-0EB6-4357-BE99-0DCA5097A1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E0C971-9911-416E-934C-032FE18B9003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E0C971-9911-416E-934C-032FE18B9003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E0C971-9911-416E-934C-032FE18B9003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E0C971-9911-416E-934C-032FE18B9003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD6D846-8A73-4EBD-870A-B9BF9E064C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD6D846-8A73-4EBD-870A-B9BF9E064C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD6D846-8A73-4EBD-870A-B9BF9E064C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD6D846-8A73-4EBD-870A-B9BF9E064C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE29389-64AB-4F11-B36E-C77EED3FA88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE29389-64AB-4F11-B36E-C77EED3FA88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE29389-64AB-4F11-B36E-C77EED3FA88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE29389-64AB-4F11-B36E-C77EED3FA88B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AFA0C68-CDFC-471A-88AE-AB10E5012759}
+	EndGlobalSection
+EndGlobal
